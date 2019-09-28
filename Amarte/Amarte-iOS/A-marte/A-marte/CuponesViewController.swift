@@ -1,5 +1,5 @@
 //
-//  PanicoViewController.swift
+//  CuponesViewController.swift
 //  A-marte
 //
 //  Created by Miguel Valcarcel on 9/28/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PanicoViewController: UIViewController {
+class CuponesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,9 +47,8 @@ class PanicoViewController: UIViewController {
     let totalImage: UIImageView = {
         let iv = UIImageView()
         iv.translatesAutoresizingMaskIntoConstraints = false
-        iv.image = UIImage(named: "panico")
+        iv.image = UIImage(named: "cupones")
         iv.contentMode = .scaleAspectFit
         return iv
     }()
-
 }

@@ -45,8 +45,8 @@ class TabBarViewController: UITabBarController {
         let homeViewController = setupTabBarItemViewController(with: .home, viewController: HomeViewController())
         let retosViewController = setupTabBarItemViewController(with: .retos, viewController: RetosViewController())
         let panicoViewController = setupTabBarItemViewController(with: .panico, viewController: PanicoViewController())
-        let cuponesViewController = setupTabBarItemViewController(with: .cupones, viewController: HomeViewController())
-        let perfilViewController = setupTabBarItemViewController(with: .perfil, viewController: HomeViewController())
+        let cuponesViewController = setupTabBarItemViewController(with: .cupones, viewController: CuponesViewController())
+        let perfilViewController = setupTabBarItemViewController(with: .perfil, viewController: PerfilViewController())
         
         viewControllers = [panicoViewController, retosViewController, homeViewController, cuponesViewController, perfilViewController]
         tabBar.backgroundColor = .white

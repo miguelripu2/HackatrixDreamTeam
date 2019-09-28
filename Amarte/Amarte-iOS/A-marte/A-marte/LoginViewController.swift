@@ -99,7 +99,7 @@ class LoginViewController: UIViewController {
     }()
     
     @objc func signInTapped() {
-        present(TabBarViewController(), animated: true, completion: nil)
+        present(PreguntasDiariasViewController(), animated: true, completion: nil)
     }
 }
 

@@ -1,5 +1,5 @@
 //
-//  PanicoViewController.swift
+//  PerfilViewController.swift
 //  A-marte
 //
 //  Created by Miguel Valcarcel on 9/28/19.
@@ -8,13 +8,14 @@
 
 import UIKit
 
-class PanicoViewController: UIViewController {
+class PerfilViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         view.addSubview(contentView)
         contentView.addSubview(totalImage)
+        contentView.addSubview(salirImage)
         // Do any additional setup after loading the view.
     }
     
@@ -35,6 +36,11 @@ class PanicoViewController: UIViewController {
         totalImage.bottomAnchor.constraint(equalTo: contentView.bottomAnchor).isActive = true
         totalImage.leftAnchor.constraint(equalTo: contentView.leftAnchor).isActive = true
         totalImage.rightAnchor.constraint(equalTo: contentView.rightAnchor).isActive = true
+        
+        salirImage.topAnchor.constraint(equalTo: contentView.topAnchor).isActive = true
+        salirImage.rightAnchor.constraint(equalTo: contentView.rightAnchor).isActive = true
+        salirImage.widthAnchor.constraint(equalToConstant: contentView.frame.width * 0.1).isActive = true
+        salirImage.heightAnchor.constraint(equalToConstant: contentView.frame.width * 0.1).isActive = true
     }
     
     let contentView: UIView = {
@@ -47,9 +53,21 @@ class PanicoViewController: UIViewController {
     let totalImage: UIImageView = {
         let iv = UIImageView()
         iv.translatesAutoresizingMaskIntoConstraints = false
-        iv.image = UIImage(named: "panico")
+        iv.image = UIImage(named: "")
         iv.contentMode = .scaleAspectFit
         return iv
     }()
+    
+    let salirImage: UIButton = {
+        let iv = UIButton()
+        iv.translatesAutoresizingMaskIntoConstraints = false
+        iv.setImage(UIImage(named: "salir"), for: .normal)
+        iv.addTarget(self, action: #selector(salirTapped), for: .touchUpInside)
+        return iv
+    }()
+    
+    @objc func salirTapped() {
+        present(LoginViewController(), animated: false, completion:  nil)
+    }
 
 }

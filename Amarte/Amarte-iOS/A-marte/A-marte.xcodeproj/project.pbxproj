@@ -16,6 +16,9 @@
 		03729E22233FD0CB00540AD1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03729E21233FD0CB00540AD1 /* HomeViewController.swift */; };
 		03729E24233FEF3E00540AD1 /* PanicoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03729E23233FEF3E00540AD1 /* PanicoViewController.swift */; };
 		03729E2623400B0A00540AD1 /* RetosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03729E2523400B0A00540AD1 /* RetosViewController.swift */; };
+		03729E2823400ECF00540AD1 /* CuponesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03729E2723400ECF00540AD1 /* CuponesViewController.swift */; };
+		03729E2A2340100100540AD1 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03729E292340100100540AD1 /* PerfilViewController.swift */; };
+		03729E2C234010EA00540AD1 /* PreguntasDiariasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03729E2B234010EA00540AD1 /* PreguntasDiariasViewController.swift */; };
 		CBC19728A1182922800DC74D /* Pods_A_marte.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D5B52B56F6193AD2E1E5E1 /* Pods_A_marte.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +34,9 @@
 		03729E21233FD0CB00540AD1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		03729E23233FEF3E00540AD1 /* PanicoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanicoViewController.swift; sourceTree = "<group>"; };
 		03729E2523400B0A00540AD1 /* RetosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetosViewController.swift; sourceTree = "<group>"; };
+		03729E2723400ECF00540AD1 /* CuponesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuponesViewController.swift; sourceTree = "<group>"; };
+		03729E292340100100540AD1 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		03729E2B234010EA00540AD1 /* PreguntasDiariasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreguntasDiariasViewController.swift; sourceTree = "<group>"; };
 		0D11EBE5E9F1E570B80DE886 /* Pods-A-marte.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A-marte.debug.xcconfig"; path = "Target Support Files/Pods-A-marte/Pods-A-marte.debug.xcconfig"; sourceTree = "<group>"; };
 		C7D5B52B56F6193AD2E1E5E1 /* Pods_A_marte.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A_marte.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADC2EF6735B4F9A9BB286E4 /* Pods-A-marte.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A-marte.release.xcconfig"; path = "Target Support Files/Pods-A-marte/Pods-A-marte.release.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +85,9 @@
 				03729E21233FD0CB00540AD1 /* HomeViewController.swift */,
 				03729E23233FEF3E00540AD1 /* PanicoViewController.swift */,
 				03729E2523400B0A00540AD1 /* RetosViewController.swift */,
+				03729E2723400ECF00540AD1 /* CuponesViewController.swift */,
+				03729E292340100100540AD1 /* PerfilViewController.swift */,
+				03729E2B234010EA00540AD1 /* PreguntasDiariasViewController.swift */,
 			);
 			path = "A-marte";
 			sourceTree = "<group>";
@@ -215,11 +224,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03729E2823400ECF00540AD1 /* CuponesViewController.swift in Sources */,
 				036F4C71233FBDFC00C58831 /* LoginViewController.swift in Sources */,
 				03729E20233FD02800540AD1 /* TabBarViewController.swift in Sources */,
 				036F4C6F233FBDFC00C58831 /* AppDelegate.swift in Sources */,
+				03729E2C234010EA00540AD1 /* PreguntasDiariasViewController.swift in Sources */,
 				03729E24233FEF3E00540AD1 /* PanicoViewController.swift in Sources */,
 				03729E2623400B0A00540AD1 /* RetosViewController.swift in Sources */,
+				03729E2A2340100100540AD1 /* PerfilViewController.swift in Sources */,
 				03729E22233FD0CB00540AD1 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
