@@ -43,7 +43,7 @@ class TabBarViewController: UITabBarController {
         super.viewDidLoad()
         print(tabBar.frame)
         let homeViewController = setupTabBarItemViewController(with: .home, viewController: HomeViewController())
-        let retosViewController = setupTabBarItemViewController(with: .retos, viewController: HomeViewController())
+        let retosViewController = setupTabBarItemViewController(with: .retos, viewController: RetosViewController())
         let panicoViewController = setupTabBarItemViewController(with: .panico, viewController: PanicoViewController())
         let cuponesViewController = setupTabBarItemViewController(with: .cupones, viewController: HomeViewController())
         let perfilViewController = setupTabBarItemViewController(with: .perfil, viewController: HomeViewController())

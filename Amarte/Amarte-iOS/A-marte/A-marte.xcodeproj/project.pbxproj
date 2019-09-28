@@ -15,6 +15,7 @@
 		03729E20233FD02800540AD1 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03729E1F233FD02800540AD1 /* TabBarViewController.swift */; };
 		03729E22233FD0CB00540AD1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03729E21233FD0CB00540AD1 /* HomeViewController.swift */; };
 		03729E24233FEF3E00540AD1 /* PanicoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03729E23233FEF3E00540AD1 /* PanicoViewController.swift */; };
+		03729E2623400B0A00540AD1 /* RetosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03729E2523400B0A00540AD1 /* RetosViewController.swift */; };
 		CBC19728A1182922800DC74D /* Pods_A_marte.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D5B52B56F6193AD2E1E5E1 /* Pods_A_marte.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		03729E1F233FD02800540AD1 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		03729E21233FD0CB00540AD1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		03729E23233FEF3E00540AD1 /* PanicoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanicoViewController.swift; sourceTree = "<group>"; };
+		03729E2523400B0A00540AD1 /* RetosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetosViewController.swift; sourceTree = "<group>"; };
 		0D11EBE5E9F1E570B80DE886 /* Pods-A-marte.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A-marte.debug.xcconfig"; path = "Target Support Files/Pods-A-marte/Pods-A-marte.debug.xcconfig"; sourceTree = "<group>"; };
 		C7D5B52B56F6193AD2E1E5E1 /* Pods_A_marte.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A_marte.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADC2EF6735B4F9A9BB286E4 /* Pods-A-marte.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A-marte.release.xcconfig"; path = "Target Support Files/Pods-A-marte/Pods-A-marte.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				03729E1F233FD02800540AD1 /* TabBarViewController.swift */,
 				03729E21233FD0CB00540AD1 /* HomeViewController.swift */,
 				03729E23233FEF3E00540AD1 /* PanicoViewController.swift */,
+				03729E2523400B0A00540AD1 /* RetosViewController.swift */,
 			);
 			path = "A-marte";
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				03729E20233FD02800540AD1 /* TabBarViewController.swift in Sources */,
 				036F4C6F233FBDFC00C58831 /* AppDelegate.swift in Sources */,
 				03729E24233FEF3E00540AD1 /* PanicoViewController.swift in Sources */,
+				03729E2623400B0A00540AD1 /* RetosViewController.swift in Sources */,
 				03729E22233FD0CB00540AD1 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
