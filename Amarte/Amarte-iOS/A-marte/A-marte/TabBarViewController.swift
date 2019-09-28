@@ -10,16 +10,26 @@ import UIKit
 
 enum TabItemType: Int {
     case home
+    case retos
+    case panico
+    case cupones
+    case perfil
     
     var tabBarItem: UITabBarItem {
-        var activeImage = String()
-        var inactiveImage = String()
+        var image = String()
         switch self {
         case .home:
-            activeImage = "PanicoNaranja"
-            inactiveImage = "PanicoNegro"
+            image = "AstronautaNaranja"
+        case .retos:
+            image = "RetosNaranja"
+        case .panico:
+            image = "PanicoNaranja"
+        case .cupones:
+            image = "CuponNaranja"
+        case .perfil:
+            image = "PerfilNaranja"
         }
-        return UITabBarItem(title: nil, image: UIImage(named: activeImage), selectedImage: UIImage(named: inactiveImage))
+        return UITabBarItem(title: nil, image: UIImage(named: image), selectedImage: UIImage(named: image))
     }
 }
 
@@ -32,8 +42,12 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let homeViewController = setupTabBarItemViewController(with: .home, viewController: HomeViewController())
-        let secondViewController = setupTabBarItemViewController(with: .home, viewController: HomeViewController())
-        viewControllers = [homeViewController, secondViewController]
+        let retosViewController = setupTabBarItemViewController(with: .retos, viewController: HomeViewController())
+        let panicoViewController = setupTabBarItemViewController(with: .panico, viewController: HomeViewController())
+        let cuponesViewController = setupTabBarItemViewController(with: .cupones, viewController: HomeViewController())
+        let perfilViewController = setupTabBarItemViewController(with: .perfil, viewController: HomeViewController())
+        
+        viewControllers = [panicoViewController, retosViewController, homeViewController, cuponesViewController, perfilViewController]
         tabBar.backgroundColor = .white
         delegate = self
         tabBar.tintColor = UIColor(red: 220/255, green: 87/255, blue: 39/255, alpha: 1)
